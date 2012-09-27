@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:gravity="center_horizontal">
+  
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:gravity="center_horizontal"
+  android:paddingTop="10dip"> 
+  
+<TextView android:text="Name : " android:id="@+id/TextView01" android:layout_width="120dip" android:layout_height="wrap_content"></TextView>
+<EditText android:id="@+id/EditText01" android:layout_width="200dip" android:layout_height="wrap_content"></EditText>
+
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:gravity="center_horizontal"
+  android:paddingTop="10dip"> 
+  
+<TextView android:text="DL Number : " android:id="@+id/TextView02" android:layout_width="120dip" android:layout_height="wrap_content"></TextView>
+<EditText android:id="@+id/EditText02" android:layout_width="200dip" android:layout_height="wrap_content"></EditText>
+
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:gravity="center_horizontal"
+  android:paddingTop="10dip"> 
+  
+<TextView android:text="DL Validity : " android:id="@+id/TextView03" android:layout_width="120dip" android:layout_height="wrap_content"></TextView>
+<EditText android:text="DD" android:id="@+id/EditText06" android:layout_width="80dip" android:layout_height="wrap_content"></EditText>
+<Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:entries="@array/month_array"
+        android:prompt="@string/month_prompt" />
+        
+<EditText android:text="YYYY" android:id="@+id/EditText03" android:layout_width="80dip" android:layout_height="wrap_content"></EditText>
+
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:gravity="center_horizontal"
+  android:paddingTop="10dip"> 
+  
+<TextView android:text="City : " android:id="@+id/TextView04" android:layout_width="120dip" android:layout_height="wrap_content"></TextView>
+<EditText android:id="@+id/EditText04" android:layout_width="200dip" android:layout_height="wrap_content"></EditText>
+
+</LinearLayout>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:gravity="center_horizontal"
+  android:paddingTop="10dip"> 
+  
+<TextView android:text="Mob Number : " android:id="@+id/TextView02" android:layout_width="120dip" android:layout_height="wrap_content"></TextView>
+<EditText android:id="@+id/EditText05" android:layout_width="200dip" android:layout_height="wrap_content"></EditText>
+</LinearLayout>
+
+<Button android:layout_margin="20dip" android:text="Register !" android:id="@+id/Button01" android:layout_width="120dip" android:layout_height="wrap_content"></Button>
+
+</LinearLayout>
